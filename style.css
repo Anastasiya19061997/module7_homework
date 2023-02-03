@@ -885,7 +885,7 @@ body *{
 .footer-content {
     height: 133px;
 }
-@media screen and (min-width: 768px) and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     .header-navigation, .button-header, .projects-content, .arrows, .projects-img, .measurement, .type-of-style, .photo, .title-three-clients, .handshake, .clients-content, .review-content, .style-overlay, .footer, .contacts-overlay {
         display: none;
     }
