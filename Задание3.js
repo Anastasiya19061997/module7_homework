@@ -1,7 +1,5 @@
-function example(x) {
-  return function(y) {
-    let result = x + y;
-    return result
-  }
+function getFunk() {
+    const emptyObject = Object.create(null);
+    return emptyObject;
 }
-console.log(example(8)(6))
+console.log(getFunk())
